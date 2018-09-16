@@ -24,7 +24,7 @@ RUN apk add --no-cache --upgrade git python3 python3-dev gcc musl-dev==1.1.18-r3
 pip3 install --upgrade pip requests chardet sqlalchemy utils psutil lxml web.py==0.40-dev1 gevent
 
 #克隆代理池源码
-RUN git clone https://github.com/qiyeboy/IPProxyPool.git
+RUN git clone https://github.com/anjia0532/IPProxyPool.git
 
 #启动代理池
 CMD python3 /IPProxyPool/IPProxy.py
